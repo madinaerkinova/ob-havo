@@ -1,0 +1,128 @@
+@media (max-width:375px){
+    .wither{
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+        background-image: url(../img/bg-weather2.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .left__wihter{
+            padding: 19px;
+            margin-bottom: 40px;
+
+            .img{
+                margin-bottom: 100px;
+                width: 39px;
+                height: 20px;
+            }
+            .wither__area{
+                gap: 5px;
+
+                h1{
+                    color: #FFF;
+                    font-size: 64px;
+                }
+                div{
+                    
+                    row-gap: 4px;
+                    h2{
+                        font-size: 30px;
+                    }
+                    h3{
+                        font-size: 10px;
+                    }
+                }
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        .right__wihter{
+            width: 100%;
+           .main__section{
+            .serch__section{
+                position:relative;
+                padding-bottom: none;
+        
+            }
+           } 
+        }
+    }
+    .wether__text{
+        h1{
+            border-top:none;
+        }
+    }
+
+    .wether__today{
+        display: none !important; 
+    }
+
+    .twind{
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media (min-width:375px) and (max-width:982px){
+   .wither{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/bg-weather33.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .left__wihter{
+            padding: 19px;
+            margin-bottom: 40px;
+
+            .img{
+                margin-bottom: 200px;
+                width: 60px;
+                height: 31.372px;   
+            }
+            .wither__area{
+                gap: 5px;
+
+                h1{
+                    color: #FFF;
+                    font-size: 120px;
+                }
+                div{
+                    
+                    row-gap: 10px;
+                    h2{
+                        font-size: 48px;
+                    }
+                    h3{
+                        font-size: 16px;
+                    }
+                }
+                img{
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+        }
+        .right__wihter{
+            width: 100%;
+            .main__section{
+                padding-left: 100px;
+                padding-right: 100px;
+
+            }
+        }
+    } 
+    .twind{
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid white;
+    }
+
+  .wether__today{
+    display: none !important; 
+   }
+    
+}
